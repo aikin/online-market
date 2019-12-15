@@ -1,0 +1,4 @@
+archivesBaseName = 'domain'
+
+dependencies {
+}

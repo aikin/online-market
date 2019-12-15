@@ -1,0 +1,8 @@
+archivesBaseName = 'representation'
+
+dependencies {
+    compile project(':application')
+    compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.9.2'
+    compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.9.2'
+    testCompile group: 'commons-io', name: 'commons-io', version: '2.6'
+}

@@ -1,0 +1,7 @@
+archivesBaseName = 'infrastructure'
+
+dependencies {
+    compile project(':domain')
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa'
+    compile group: 'com.h2database', name: 'h2', version: '1.4.199'
+}
